@@ -1,0 +1,52 @@
+div.class1 [class ~ ="top"] {
+    background-color: purple;
+    color: aliceblue;
+}
+
+div.class2 [class^="top"] {
+    background-color: pink;
+    color: black;
+}
+
+div.class3 [class*="te"] {
+    background-color: blue;
+    color: aliceblue;
+}
+
+div.class4 [class |=top] {
+    background-color: red;
+    color: aliceblue;
+}
+
+input[type=text] {
+    background-color: rgba(155, 153, 88, 0.55);
+}
+
+input [type=button] {
+    display: block;
+    margin-left: 50px;
+}
+
+div.form {
+    background-color: beige;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form input[type=text] {
+    width: 97%;
+    padding: 15px 15px;
+    margin: 10px 0;
+    direction: inline-block;
+    border: 2px solid #546208;
+    box-sizing: border-box;
+}
+
+.form input[type=button] {
+    background-color: #667706;
+    width: 97%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
