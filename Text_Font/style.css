@@ -1,0 +1,34 @@
+*{
+    background-color: peachpuff;
+}
+h1
+{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+a
+{
+    text-decoration: underline;
+    color: red;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+    text-decoration-thickness:20%;
+    
+}
+#one
+{
+    line-height: 2;
+    white-space: pre-wrap;
+    text-shadow: 10px 3px 1px #4efc01;
+}
+#two
+{
+   font-family:cursive;
+    font-size:20px;
+    font-weight: 400;
+}
+#three
+{
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+}
