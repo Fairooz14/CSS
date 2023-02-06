@@ -1,0 +1,54 @@
+*
+{
+    background-color: peachpuff;
+    
+}
+i.fa-pinterest
+{
+    color : red;
+    font-size: 100px;
+}
+i.fa-facebook-square
+{
+    color : blue;
+    font-size: 100px;
+    
+}
+i.fa-cc-mastercard
+{
+    color : darkgreen;
+    font-size: 100px;
+    
+}
+i.fa-snapchat-square
+{
+    color : #ebc909;
+    font-size: 100px;  
+}
+a
+{
+    text-decoration: none;
+    background: #c30828;
+    padding: 5px 5px;
+    color:white;
+}
+
+a:hover
+{
+    background: blue;
+color:whitesmoke;
+}
+a:visited
+{
+    color: darkmagenta;
+    background: #ceff00;
+}
+
+ul
+{
+    list-style-type:square;
+}
+ol
+{
+    list-style-type: upper-roman;
+}
