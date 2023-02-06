@@ -1,0 +1,77 @@
+input[type=text] {
+    width: 50%;
+    padding: 10px 40px;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 20px;
+    border: 2px solid #4e2660;
+    transition: width 0.6s;
+    background-color: rgba(136, 68, 128, 0.26);
+    color: white;
+}
+
+input[type=text]:focus {
+    width: 90%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccb8bc;
+}
+
+h1 {
+    background-color: rgb(160, 89, 147);
+    padding: 30px 20px;
+    text-align: center;
+    color: #391e3b;
+}
+
+/* 
+inline tag e display block korte hobe jodi padding chai.
+*/
+.topnav {
+    text-align: center;
+    overflow: hidden;
+    background-color: rgba(135, 87, 152, 0.52);
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #6d1b38;
+    text-align: center;
+    border-right: 2px solid #650c5b;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.topnav a:hover {
+    background-color: lightpink;
+    color: rgb(135, 87, 152);
+    transition: 3s;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.footer {
+    background-color: rgb(135, 87, 152);
+    padding: 70px;
+    text-align: center;
+}
