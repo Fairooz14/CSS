@@ -1,0 +1,15 @@
+h1 {
+    border: 30px solid transparent;
+    padding: 15px;
+    border-image: url(pattern.png) 30 round;
+    text-align: center;
+}
+
+div {
+    height: 500px;
+    width: 100%;
+    background: url(balzer-3.gif), url(paper.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
