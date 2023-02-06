@@ -1,0 +1,42 @@
+h1
+{
+    color: rgb(103, 49, 71);
+    text-decoration: underline;
+}
+table
+{
+    width: 100%;
+}
+table,th,tr,td
+{
+    border: 3px solid;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+th
+{
+    height: 100px;
+    width: 100px;
+}
+caption
+{
+    color: rgb(129, 19, 49);
+    text-decoration: underline overline;
+}
+th,td
+{
+    height: 50px;
+}
+td
+{
+    text-align: center;
+    vertical-align:middle;
+}
+tr:nth-child(odd)
+{
+    background: rgb(169, 92, 104);
+}
+tr:hover
+{
+    background: rgb(103, 49, 71);
+}
