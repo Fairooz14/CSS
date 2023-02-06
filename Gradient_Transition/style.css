@@ -1,0 +1,226 @@
+* {
+    background-color: #e3bfbf;
+}
+
+.a {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: linear-gradient(purple, pink)
+}
+
+.b {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: linear-gradient(purple 0% 50%, pink 50%)
+}
+
+.c {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: radial-gradient(purple, #cc0b2d, pink)
+}
+
+.d {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: radial-gradient(purple 0% 50%, #cc0b2d 50% 20%, pink 20%)
+}
+
+.e {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: radial-gradient(at bottom, purple 0% 50%, #cc0b2d 50% 20%, pink 20%);
+}
+
+.f {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: conic-gradient(from 45deg, #7403b1, pink);
+}
+
+.g {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: conic-gradient(#9a1241 90deg, #3897e8 90deg 180deg, pink 180deg 270deg, purple 270deg);
+}
+
+.h {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: conic-gradient(#9a1241 90deg, #3897e8 90deg 180deg, pink 180deg 270deg, purple 270deg);
+    background-size: 20% 20%;
+}
+
+.i {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: repeating-conic-gradient(#9a1241 20deg, #3897e8 20deg 30deg, pink 40deg 50deg, purple 50deg 60deg);
+}
+
+.j {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: linear-gradient(#f55b90 50%, #9d3b9d 50%);
+}
+
+.k {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-image: linear-gradient(#f55b90 50%, #9d3b9d 50%);
+    transform: rotate(45deg);
+}
+
+.k:hover {
+    transform: scale(0.5);
+    transition: 3s;
+    transform: translate(50px 50px);
+}
+
+.j:hover {
+    transform: translate(50px);
+    transition: 3s;
+}
+
+.a:hover {
+    transform: scaleY(1.5);
+    transition: 3s;
+}
+
+.b:hover {
+    transform: skewX(-30deg);
+    transition: 3s;
+}
+
+.h:hover {
+    transform: skewY(-30deg);
+    transition: 3s;
+}
+
+.i:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+.c:hover {
+    transform: scale(1.5);
+    transition: 3s;
+}
+
+.l {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#one {
+    position: absolute;
+    top: 30%;
+    left: 150%;
+    font-size: 30px;
+    background-color: #a31c48;
+    box-shadow: -20px 20px 10px black;
+}
+
+#one:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    background-color: mediumpurple;
+}
+
+.one {
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    margin: 30px 50px;
+    border-radius: 30px;
+}
+
+.two {
+    height: 70px;
+    width: 70px;
+    border: 1px solid white;
+    margin: 14px 13px;
+    border-radius: 20px;
+}
+
+.three {
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    margin: 4px 4px;
+    border-radius: 20px;
+}
+
+.four {
+    height: 5px;
+    width: 5px;
+    border: 1px solid white;
+    margin: 5px 46px;
+    border-radius: 50%;
+}
+
+.five {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    margin: -3px auto;
+    border-radius: 50%;
+}
+
+.six {
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+    margin: 4px auto;
+    border-radius: 50%;
+}
+
+.one {
+    background-image: radial-gradient(at 30% 107%, #fa7e1e 0%, #fa7e1e 5%, #ff5949 45%, #d62976 60%, rgb(33, 17, 226)  90%) ;
+                                    
+}
+.two
+{
+    background-color: white;
+}
+.three
+{
+    background-image: radial-gradient(at 30% 107%, #fa7e1e 0%, #fa7e1e 5%, #ff5949 45%, #d62976 60%, rgb(33, 17, 226)  90%) ;
+}
+.four
+{
+    background-color: white;
+}
+.six
+{
+   background-image: radial-gradient(#d32c2c,rgb(216, 101, 86)); 
+}
