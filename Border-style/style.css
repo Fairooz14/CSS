@@ -1,0 +1,43 @@
+body{
+    color: #000;
+}
+.class1{
+    background-image: url(hogwarts.jpg);
+    width:490px;
+    height: 600px;
+    border: 2px solid #fff;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+div{
+    background-image: url(hermione.jpg);
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    
+}
+#id1{
+    border-width: 10px;
+    border-color: palevioletred;
+    border-style: dashed;
+}
+#id2{
+    border-width: 10px;
+    border-color: #c32e5f;
+    border-style: inset;
+}
+#id3{
+    border-width: 10px;
+    border-color: rgba(144, 9, 53, 0.76);
+    border-style: outset;
+}
+#id4{
+    border-width: 10px;
+    border-color: #6c18bf;
+    border-style: groove;
+}
+#id5{
+    border-width: 10px;
+    border-color: #8b022e;
+    border-style: solid;
+}
