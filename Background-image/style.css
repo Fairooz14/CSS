@@ -1,0 +1,47 @@
+body{
+    background-color: #425669;
+    background-image:url(backgroud.jpg);    
+}
+.class1{
+    background-color: dimgray;
+    height: 100px;
+    width: auto;
+    text-align: center;
+}
+.class1 h1{
+    background-color: rgba(32, 43, 67, 0.69);
+    color: antiquewhite;
+}
+.class2{
+    background-image: url(howarts.jpg);
+    width:900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.class2 h1{
+    background-color: rgba(74, 71, 71, 0.6);
+    text-align:center;
+}
+.class2 p{
+    text-align:center;
+    opacity: 0.5;
+}
+h1{
+    color: initial;
+}
+.class3{
+    color:#070734;
+}
+.class3 span{
+    color:darkred;
+}
+.subclass{
+    color: inherit;
+}
+#s1{
+    color: inherit;
+}
+#s2{
+    color: darkred;
+}
