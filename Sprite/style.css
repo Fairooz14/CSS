@@ -1,0 +1,50 @@
+.icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.icon ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.icon ul li:last-child() {
+    margin-right: 0;
+}
+
+.icon ul li a {
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-position: -4px 24px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #000;
+    transition: 1s;
+}
+
+.icon ul li:nth-child(1) a {
+    background-position: -1px 2px;
+}
+
+.icon ul li:hover:nth-child(1) a {
+    background-position: 0px -74px;
+}
+
+.icon ul li:nth-child(2) a {
+    background-position: -150px 0px;
+}
+
+.icon ul li:hover:nth-child(2) a {
+    background-position: -152px -75px;
+}
+
+.icon ul li:nth-child(3) a {
+    background-position: -222px 0px;
+}
+
+.icon ul li:hover:nth-child(3) a {
+    background-position: -227px -75px;
+}
